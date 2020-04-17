@@ -19,4 +19,4 @@ jobs:
       run: npm install -g pa11y
 
     - name: Run Accessibility Tests
-      run: pa11y %target_url%
+      run: pa11y $target_url
