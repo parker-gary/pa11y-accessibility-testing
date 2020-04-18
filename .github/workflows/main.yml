@@ -20,4 +20,4 @@ jobs:
       name: Run Accessibility Tests
       env:
         target_url: ${{ secrets.target_url }}
-      run: pa11y --reporter cli "%target_url%"
+      run: pa11y "%target_url%"
